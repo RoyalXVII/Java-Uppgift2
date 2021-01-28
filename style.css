@@ -1,0 +1,44 @@
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    box-shadow: 5px 5px 10px 0 #333;
+    margin: 1.5rem 0;
+    background-color: rgb(43, 43, 43);
+    color: white;
+  }
+  .todo:hover {
+    box-shadow: 5px 5px 10px 2px #333;
+  }
+  .todo:active {
+    box-shadow: 5px 5px 6px 0 #333;
+  }
+  .completed h3{
+    text-decoration: line-through;
+    color: #8d8d8d;
+  }
+  .todo h3 {
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  .my-bg {
+    background-image: linear-gradient(to right, rgba(154, 29, 185, 0.459), rgb(119, 47, 108));
+  }
+  
+  
+  .form-control {
+    border-color: #ab5cc4;
+  }
+  
+  .custom-btn {
+    background-color: #b859d4e5;
+    border: none;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+  } .custom-btn:hover {
+    background: rgba(88, 3, 88, 0.87);
+    color: white;
+  }
